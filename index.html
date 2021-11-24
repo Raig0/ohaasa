@@ -50,6 +50,7 @@
 		</ul>
 		<p>Retention:</p>
 		<p>Google anonymizes the log data by removing part of the IP address (after 9 months) and cookie information (after 18 months)</p>
+		<p>Android ad ID collection is optional. The ad ID can be reset or deleted by users using ad ID controls in the Android settings menu.</p>
 		<p>Online resources:</p>
 		<ul>
 			<li><a href="https://www.google.com/policies/technologies/ads/">Privacy Policy </a></li>
@@ -88,9 +89,15 @@
 		<h3>2.4 Firebase Crashlytics</h3>
 		<p>Personal Data:</p>
 		<ul>
-			<li>Crash information</li>
-			<li>Device information</li>
-			<li>Universally unique identifier (UUID)</li>
+			<li>Stack traces - collects them when an application crashes</li>
+			<li>Relevant application state - collects them when an application crashes</li>
+			<li>Relevant device metadata - collects point-in-time metadata about the device when an application crashes</li>
+			<li>Crashlytics installation UUID - Generates and stores the Crashlytics installation UUID to measure the number of users impacted by a crash</li>
+		</ul>
+		<p>Also:</p>
+		<ul>
+			<li>Collects any custom keys, logs, and free-text user IDs that a developer attaches to crash reports.</li>
+			<li>Collects any developer-defined non-fatal events with custom stack traces.</li>
 		</ul><br>
 		<h2>3. How do we use your information?</h2>
 		<p>We use personal information collected via our App for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.</p>
